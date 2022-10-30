@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <title>TO DO LIST</title>
+        <link rel="stylesheet" href="css/index.css">
+        <!--   <script src="lib/jquerymobile.js"></script>  
+        <script src="lib/jquery.mobile-1.4.5.min.js"></script>  -->
+        <script src="js/index.js"></script>     
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+    </head>
+    <body>
+        <div data-role="page" id="grad1">
+            <div data-role="header" id="HEAD">
+                <h1>TO DO LIST APP</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <label for="tache"></label>
+                <input type="text" id="tache" placeholder="Ajouter une tache">
+                <input id="ajoutTache" type="button" value="Ajouter">
+                <div data-role="header" data-theme="b">
+                    <h1>Taches à effectuer</h1>
+            </div>
+                <ul data-role="listview" data-inset="true" id="listeTache">
+                </ul>
+            <div data-role="header" data-theme="b">
+                <h1>Taches terminées</h1>
+            </div>
+                <ul data-role="listview" data-inset="true" id="listeTacheTerminees">
+                </ul>
+            </div>
+            <blockquote>**Glisser la tache vers la gauche pour la marquer comme terminée</blockquote>
+            <blockquote>**Glisser la tache vers la droite pour la supprimer de la liste</blockquote>
+            <div data-role="footer" data-position="fixed" id="FOOT">
+                <h1>Bineta SOW, M1IABD &copy; Octobre 2022</h1>
+            </div>
+        </div>
+    </body>
+</html>
