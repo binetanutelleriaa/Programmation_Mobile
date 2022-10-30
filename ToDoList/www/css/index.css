@@ -1,0 +1,19 @@
+#grad1{
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(72, 139, 168));
+}
+#HEAD{
+    background-color: #4a93b3;
+}
+#FOOT{
+    background-color: #4a93b3;
+}
+label
+{
+    text-align: center;
+}
+.ui-content *[data-role=header]
+{
+    background-color: gray;
+}
+
